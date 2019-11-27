@@ -1,5 +1,5 @@
 pipeline {
-   agent { label 'w_slave (TEST)' }
+   agent { label 'w_slave' }
     stages {
         stage('SCM') {
             steps {
